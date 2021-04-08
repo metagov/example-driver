@@ -1,0 +1,23 @@
+{
+  "name": "example-driver",
+  "version": "1.0.0",
+  "description": "Example of a minimal governance driver that uses the metagov prototype",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metagov/example-driver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metagov/example-driver/issues"
+  },
+  "homepage": "https://github.com/metagov/example-driver#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
