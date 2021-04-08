@@ -69,7 +69,6 @@ app.listen(port, async () => {
   console.log("\nStarting an asynchronous governance process...");
   const delay = 1;
   const processData = {
-    callback_url: DRIVER_URL + "/receive",
     options: ["one", "two", "three"],
     delay: delay,
   };
