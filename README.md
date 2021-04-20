@@ -13,7 +13,7 @@ Example of a minimal "governance driver" that uses the Metagov Prototype
    `ngrok http 80`
 
 4. In this project, run
-   `METAGOV_SERVER=https://f5f0ddae68ec.ngrok.io npm start`
+   `METAGOV_SERVER=https://<subdomain>.ngrok.io npm start`
 
 5. Log into Loomio as an admin, and add the ngrok webhook receiver URL that was printed to the console in the previous step.
 
