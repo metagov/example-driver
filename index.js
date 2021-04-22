@@ -118,6 +118,6 @@ app.listen(port, async () => {
     let resp = await instance.get(processLocation);
     body = resp.data;
     console.dir(body, { depth: null, colors: true });
-    console.log(`Go to ${body.data.poll_url} to close the vote early.`);
+    console.log(`Go to the poll_url to close the vote early.`);
   }
 });
